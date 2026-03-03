@@ -100,6 +100,7 @@
       "buy_limit3": "本割引商品は{{stock}}点までのご購入とさせていただきます"
     },
     "error": {
+      "coupon_code_expired": "クーポンコードは有効期限が過ぎています",
       "default": "リソースの読み込みに失敗しました",
       "noshipping": "利用可能な送料オプションがありません",
       "order": "注文リクエストに失敗しました",
@@ -121,7 +122,10 @@
           "excludedState": "該当商品が法令違反のため、出品が制限されています。"
         }
       },
-      "none_existent": "商品が存在しません"
+      "none_existent": "商品が存在しません",
+      "selling_plan": {
+        "name": "サブスクリプション情報"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "税金や送料は次のステップで計算されます",
@@ -629,6 +633,7 @@
       "all_products": "全商品",
       "collections": "コレクション",
       "decline": "拒否する",
+      "email": "メール",
       "email_tip": "メールアドレスが無効です。もう一度入力してください",
       "home": "ホームページ",
       "link": "プライバシーポリシー",
@@ -844,6 +849,8 @@
       "email": "メールアドレス",
       "enter_email_address": "メールアドレスを入力してください",
       "enter_valid_email_address": "有効なメールアドレスを入力してください",
+      "expander_view_less": "折りたたむ",
+      "expander_view_more": "さらに表示",
       "give_us_more_of_your_information": "もっと詳しい情報をお寄せいただければ、より適切なサービスを提供できます",
       "go_to_amazon_by_link": "Amazonで購入",
       "go_to_rakuten_by_link": "楽天で購入",

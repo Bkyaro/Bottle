@@ -38,12 +38,14 @@
     "
   >
     {{#if product.featured_media }}
+      {{#capture mobile_size }}1/{{ props.mobile_columns | default("1") }}{{/capture}}
+      {{#capture desktop_size }}1/{{ props.desktop_columns | default("1") }}{{/capture}}
       {{#component
         "image"
         data=product.featured_media
         class="block-product-card__image"
-        mobile_size=props.mobile_columns
-        desktop_size=props.desktop_columns
+        mobile_size=mobile_size
+        desktop_size=desktop_size
         lazy=props.lazy
       /}}
 
@@ -52,8 +54,8 @@
           "image"
           data=product.media[1]
           class="block-product-card__image"
-          mobile_size=props.mobile_columns
-          desktop_size=props.desktop_columns
+          mobile_size=mobile_size
+          desktop_size=desktop_size
           lazy=props.lazy
         /}}
       {{/if}}

@@ -100,6 +100,7 @@
       "buy_limit3": "S popusti lahko kupite le {{stock}} kos(-e) tega izdelka"
     },
     "error": {
+      "coupon_code_expired": "Koda za popust je potekla",
       "default": "Napaka pri nalaganju virov",
       "noshipping": "Brez izbirnega tovornega načrta",
       "order": "Zaporedja ni bilo mogoče zahtevati",
@@ -121,7 +122,10 @@
           "excludedState": "Tržni izdelek je nezakonit, izdelek je izključen iz trga"
         }
       },
-      "none_existent": "Blago ne obstaja"
+      "none_existent": "Blago ne obstaja",
+      "selling_plan": {
+        "name": "Informacije o naročnini"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Davki in dostava se izračunajo ob nakupu",
@@ -629,6 +633,7 @@
       "all_products": "Vsiti Izdelki",
       "collections": "Zbirke",
       "decline": "Zavrni",
+      "email": "e-pošta",
       "email_tip": "Nepravilen poštni predal. Ponovno vnesite",
       "home": "Domača stran",
       "link": "Politika zasebnosti",
@@ -844,6 +849,8 @@
       "email": "Elektronski",
       "enter_email_address": "Vnesite vaš elektronski naslov",
       "enter_valid_email_address": "Vnesite veljaven elektronski naslov",
+      "expander_view_less": "Skrij",
+      "expander_view_more": "Pokaži več",
       "give_us_more_of_your_information": "Za zagotavljanje ustreznejših storitev nam lahko posredujete več svojih podatkov",
       "go_to_amazon_by_link": "Kupite na Amazonu",
       "go_to_rakuten_by_link": "Nakup v trgovini LOTTE",

@@ -28,7 +28,7 @@
       layout="{{ section.settings.desktop_menu_layout }}"
       type="{{ section.settings.desktop_menu_type }}"
     >
-      <div class="header__container-top{{#if section.settings.show_divider }}divider{{/if}}">
+      <div class="header__container-top {{#if section.settings.show_divider }}divider{{/if}}">
         <div class="header__container-top-wrap page-width {{ section.settings | class_list() }}">
           
           {{#if
@@ -99,7 +99,10 @@
       {{#component "./components/search-bar" show_divider=section.settings.show_divider /}}
 
       
-      {{#if section.settings.desktop_menu_layout == "center_logo_wrap_menu" }}
+      {{#if
+        section.settings.desktop_menu_layout == "center_logo_wrap_menu" ||
+        section.settings.desktop_menu_layout == "center_logo_wrap_menu_2"
+      }}
         <div class="header__container-bottom">
           {{#component "./components/nav" links=section.settings.navigation_menu.links /}}
         </div>
@@ -252,6 +255,10 @@
         {
           "value": "center_logo_left_menu",
           "label": "t:sections.header.settings.desktop_menu_layout.options_3.label"
+        },
+        {
+          "value": "center_logo_wrap_menu_2",
+          "label": "t:sections.header.settings.desktop_menu_layout.options_4.label"
         }
       ]
     },

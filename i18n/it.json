@@ -100,6 +100,7 @@
       "buy_limit3": "Con il prezzo promozionale dell'articolo puoi acquistare solo solo {{stock}} pezzi"
     },
     "error": {
+      "coupon_code_expired": "Il codice sconto è scaduto",
       "default": "Impossibile caricare le risorse",
       "noshipping": "Nessun piano di spedizione disponibile",
       "order": "Impossibile effettuare l'ordine",
@@ -121,7 +122,10 @@
           "excludedState": "Il prodotto del mercato è illegale, il prodotto è escluso dal mercato"
         }
       },
-      "none_existent": "L'articolo non esiste"
+      "none_existent": "L'articolo non esiste",
+      "selling_plan": {
+        "name": "Informazioni sull'abbonamento"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Le tasse e le spese di spedizione saranno calcolate nel prossimo passo",
@@ -629,6 +633,7 @@
       "all_products": "Tutti i Prodotti",
       "collections": "Collezioni",
       "decline": "Rifiuta",
+      "email": "email",
       "email_tip": "Indirizzo e-mail non valido, inserisci di nuovo",
       "home": "Home",
       "link": "Politica sulla privacy",
@@ -844,6 +849,8 @@
       "email": "Email",
       "enter_email_address": "Inserisci la tua email",
       "enter_valid_email_address": "Inserisci l'email corretto",
+      "expander_view_less": "Chiudi",
+      "expander_view_more": "Vedi di più",
       "give_us_more_of_your_information": "Puoi anche lasciare più informazioni in modo che possiamo fornire il servizio più adatto a te",
       "go_to_amazon_by_link": "Fai shopping su Amazon",
       "go_to_rakuten_by_link": "Fai shopping su LOTTE",
@@ -910,7 +917,7 @@
       "products": "Prodotti",
       "quick_shop": "Vista rapida",
       "recommend": "Consigliati",
-      "sale": "In saldo",
+      "sale": "Saldi",
       "save": "Risparmia {{{priceDom}}}",
       "save_byjs": "Risparmia {{priceDom}}",
       "save_ratio": "Sconto di {{price}}%",

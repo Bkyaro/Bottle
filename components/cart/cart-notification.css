@@ -95,7 +95,7 @@
   object-fit: contain;
 }
 .cart-item__discount {
-  margin-block-start: 4px;
+  margin-block: 4px;
   color: rgb(var(--color-discount));
 }
 .cart-item__discount > li {
@@ -103,13 +103,14 @@
   align-items: center;
 }
 .cart-item__discount > li svg {
+  flex-shrink: 0;
   width: 12px;
   height: 12px;
   margin-inline-end: 4px;
   color: rgb(var(--color-tag-background));
 }
-.cart-item__quantity {
-  margin-block-start: 10px;
+.cart-item__amount {
+  margin-block-start: 8px;
 }
 .cart-notification__body {
   position: absolute;

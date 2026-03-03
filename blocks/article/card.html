@@ -3,18 +3,22 @@
 {{#var article = props.article /}}
 
 <a
-  href="{{ article.url | default(`javascript:void(0)`)}}"
-  class="block-article-card {{#if settings.article_card_style == "card"}}article-card-border-shadow{{/if}} {{ block.settings | class_list() }}"
-  {{{block.shopline_attributes}}}
+  href="{{ article.url | default(`javascript:void(0)`) }}"
+  class="
+    block-article-card {{#if settings.article_card_style == "card" }}article-card-border-shadow{{/if}}
+    {{ block.settings | class_list() }}
+  "
+  {{{ block.shopline_attributes }}}
 >
   {{#blocks}}
-    {{#if forblock.type == "article/cover"}}
-      <div class="block-article-card__cover {{#if settings.article_card_style != "card"}}article-card-border-shadow{{/if}}">
-      {{#block
-        image=article.image
-        mobile_columns=props.mobile_columns
-        mobile_columns=props.desktop_columns
-      /}}
+    {{#if forblock.type == "article/cover" }}
+      <div
+        class="
+          block-article-card__cover
+          {{#if settings.article_card_style != "card" }}article-card-border-shadow{{/if}}
+        "
+      >
+        {{#block image=article.image mobile_columns=props.mobile_columns desktop_columns=props.desktop_columns /}}
       </div>
     {{#else if forblock.type == "article/info" /}}
       {{#block article=article /}}

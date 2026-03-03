@@ -1,23 +1,30 @@
 {{#var modulo_result = 28 | modulo(block.settings.desktop_columns) /}}
 {{#var paginate_by = 30 /}}
-{{#if modulo_result == 0}}
+{{#if modulo_result == 0 }}
   {{#set paginate_by = 28 /}}
 {{/if}}
 
-{{#var collections_paginate = all_collections | get_pagination(paginate_by, sort=block.settings.sort) /}}
+{{#var collections_paginate = all_collections | get_pagination(paginate_by, sort = block.settings.sort) /}}
 
-<div class="{{#if !block.settings.image_full_screen}}page-width{{/if}} block-main-collections-all" {{{block.shopline_attributes}}}>
+<div
+  class="{{#if !block.settings.image_full_screen }}page-width{{/if}} block-main-collections-all"
+  {{{ block.shopline_attributes }}}
+>
   <ul
     class="grid block-main-collections-all__list"
     style="
-    --mobile-columns: {{block.settings.mobile_columns}};
-    --desktop-columns: {{block.settings.desktop_columns}};
-  "
+      --mobile-columns: {{ block.settings.mobile_columns }};
+      --desktop-columns: {{ block.settings.desktop_columns }};
+    "
   >
     {{#blocks}}
-      {{#for collection in collections_paginate.list}}
+      {{#for collection in collections_paginate.list }}
         <li>
-          {{#block collection=collection /}}
+          {{#block
+            collection=collection
+            mobile_columns=block.settings.mobile_columns
+            desktop_columns=block.settings.desktop_columns
+          /}}
         </li>
       {{/for}}
     {{/blocks}}

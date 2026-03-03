@@ -100,6 +100,7 @@
       "buy_limit3": "Du kan bare kjøpe {{stock}} deler av dette produktet med rabattene"
     },
     "error": {
+      "coupon_code_expired": "Rabattkoden er utløpt",
       "default": "Feil ved lasting av ressurser",
       "noshipping": "Ingen valgfri godsplan",
       "order": "Kunne ikke be om en rekkefølge",
@@ -121,7 +122,10 @@
           "excludedState": "Kommersielle varer er ulovlige og varer er ekskludert fra markedet"
         }
       },
-      "none_existent": "Produktet eksisterer ikke"
+      "none_existent": "Produktet eksisterer ikke",
+      "selling_plan": {
+        "name": "Abonnementsinformasjon"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Avgifter og frakt beregnet i kassen",
@@ -629,6 +633,7 @@
       "all_products": "Alle Produkter",
       "collections": "Samlinger",
       "decline": "Avslå",
+      "email": "e-post",
       "email_tip": "Ugyldig postkasse. Vennligst skriv inn på nytt",
       "home": "Hjemmeside",
       "link": "Personvernpolicy",
@@ -844,6 +849,8 @@
       "email": "E-post",
       "enter_email_address": "Skriv inn e-postadressen din",
       "enter_valid_email_address": "Skriv inn en gyldig e-postadresse",
+      "expander_view_less": "Skjul",
+      "expander_view_more": "Vis mer",
       "give_us_more_of_your_information": "Du kan gi oss mer av informasjonen din, slik at vi kan gi deg mer passende tjenester",
       "go_to_amazon_by_link": "Kjøp i Amazon",
       "go_to_rakuten_by_link": "Kjøp i LOTTE",

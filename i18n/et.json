@@ -100,6 +100,7 @@
       "buy_limit3": "Seda toodet saad soodushinnaga osta ainult {{stock}} tükki"
     },
     "error": {
+      "coupon_code_expired": "Sooduskood on aegunud",
       "default": "Vigade laadimise ressursid",
       "noshipping": "Valikuline saatmiskava puudub",
       "order": "Ei saanud jada küsida",
@@ -121,7 +122,10 @@
           "excludedState": "Kommertskaubad on ebaseaduslikud ja kaubad jäetakse turult välja"
         }
       },
-      "none_existent": "Kaupu pole olemas"
+      "none_existent": "Kaupu pole olemas",
+      "selling_plan": {
+        "name": "Tellimuse teave"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Maksud ja saatmiskulud arvutatakse kassas",
@@ -629,6 +633,7 @@
       "all_products": "Kõik Tooted",
       "collections": "Kollektsioonid",
       "decline": "Langus",
+      "email": "e-kiri",
       "email_tip": "Invaliidne postkast. Palun sisestage uuesti",
       "home": "Esilehekülg",
       "link": "Privaatsuspoliitika",
@@ -844,6 +849,8 @@
       "email": "E-post",
       "enter_email_address": "Sisesta e-posti aadress",
       "enter_valid_email_address": "Sisesta kehtiv e-posti aadress",
+      "expander_view_less": "Peida",
+      "expander_view_more": "Näita rohkem",
       "give_us_more_of_your_information": "Võid anda meile rohkem teavet enda kohta, et saaksime pakkuda sulle sobivamaid teenuseid",
       "go_to_amazon_by_link": "Osta Amazonist",
       "go_to_rakuten_by_link": "Osta LOTTEst",

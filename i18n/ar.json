@@ -100,6 +100,7 @@
       "buy_limit3": "يدعم فقط شراء {{stock}} عنصر من المنتجات المخفضة"
     },
     "error": {
+      "coupon_code_expired": "انتهت صلاحية رمز الخصم",
       "default": "فشل تحميل المورد",
       "noshipping": "لا توجد خطة شحن اختيارية",
       "order": "فشل طلب الطلب",
@@ -121,7 +122,10 @@
           "excludedState": "منتج السوق غير قانوني ، والمنتج مستثنى من السوق"
         }
       },
-      "none_existent": "المنتج غير موجود"
+      "none_existent": "المنتج غير موجود",
+      "selling_plan": {
+        "name": "معلومات الاشتراك"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "سيتم احتساب الضرائب والشحن في الخطوة التالية",
@@ -629,6 +633,7 @@
       "all_products": "جميع المنتجات",
       "collections": "المجموعات",
       "decline": "رفض",
+      "email": "بريد إلكتروني",
       "email_tip": "عنوان البريد الإلكتروني غير صالح ، الرجاء إدخال مرة أخرى",
       "home": "الصفحة الرئيسية",
       "link": "سياسة الخصوصية",
@@ -844,6 +849,8 @@
       "email": "البريد",
       "enter_email_address": "الرجاء إدخال البريد الإلكتروني",
       "enter_valid_email_address": "الرجاء إدخال البريد الإلكتروني الصحيح",
+      "expander_view_less": "طي",
+      "expander_view_more": "عرض المزيد",
       "give_us_more_of_your_information": "يمكنك أيضًا ترك المزيد من المعلومات حتى نتمكن من تقديم المزيد من الخدمات المناسبة لك",
       "go_to_amazon_by_link": "اذهب للتسوق على أمازون",
       "go_to_rakuten_by_link": "اذهب للتسوق على لوت",
@@ -910,7 +917,7 @@
       "products": "المنتجات",
       "quick_shop": "عرض سريع",
       "recommend": "يوصي",
-      "sale": "تخفيضات",
+      "sale": "الأكثر مبيعًا",
       "save": "خصم {{{priceDom}}}",
       "save_byjs": "خصم {{priceDom}}",
       "save_ratio": "خصم {{price}}%",

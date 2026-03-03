@@ -100,6 +100,7 @@
       "buy_limit3": "आप इस उत्पाद के केवल {{stock}} टुकड़े छूट के साथ खरीद सकते हैं"
     },
     "error": {
+      "coupon_code_expired": "डिस्काउंट कोड समाप्त हो गया है",
       "default": "संसाधनों को लोड करने में विफलता",
       "noshipping": "कोई वैकल्पिक फ्रेट योजना नहीं",
       "order": "अनुरोध करने में विफलता",
@@ -121,7 +122,10 @@
           "excludedState": "बाजार उत्पाद अवैध है, और उत्पाद को बाजार से बाहर रखा गया है"
         }
       },
-      "none_existent": "सामग्री उपलब्ध नहीं है"
+      "none_existent": "सामग्री उपलब्ध नहीं है",
+      "selling_plan": {
+        "name": "सदस्यता की जानकारी"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "चेकआउट के समय कर और शिपिंग की गिनती",
@@ -629,6 +633,7 @@
       "all_products": "सभी उत्पाद",
       "collections": "संग्रह",
       "decline": "अस्वीकार",
+      "email": "ईमेल",
       "email_tip": "अमान्य मेलबॉक्स। कृपया पुन:",
       "home": "मुखपृष्ठ",
       "link": "गोपनीयता नीति",
@@ -844,6 +849,8 @@
       "email": "ईमेल",
       "enter_email_address": "कृपया अपना पूरा ईमेल दर्ज करें",
       "enter_valid_email_address": "कृपया एक वैध ई-मेल पता डालें",
+      "expander_view_less": "छिपाना",
+      "expander_view_more": "और दिखाओ",
       "give_us_more_of_your_information": "आप हमें अपनी अधिक जानकारी दे सकते हैं ताकि हम आपको अधिक उपयुक्त सेवाएं प्रदान कर सकें",
       "go_to_amazon_by_link": "Amazon से खरीदें",
       "go_to_rakuten_by_link": "LOTTE में खरीदें",

@@ -1,22 +1,22 @@
 {{#component "stylesheet" src="./contact-form.css" | asset_url() /}}
 {{#component "script" src="./contact-form.js" | asset_url() /}}
 
-<div class="contact-form color-{{section.settings.color_scheme.id}}">
+<div class="contact-form color-{{ section.settings.color_scheme.id }}">
   <div class="page-width">
-    <div class="contact-form__inner {{section.settings | class_list()}}">
-      {{#if section.settings.title}}
-        <h2 class="contact-form__title {{section.settings.title_size}}">
-          {{section.settings.title}}
+    <div class="contact-form__inner {{ section.settings | class_list() }}">
+      {{#if section.settings.title }}
+        <h2 class="contact-form__title {{ section.settings.title_size }}">
+          {{ section.settings.title }}
         </h2>
       {{/if}}
 
       <theme-contact-form class="contact-form">
         {{#contact_form}}
-          {{#if form.posted_successfully}}
+          {{#if form.posted_successfully }}
             {{#component "tips-card/tips-card" type="success" text="general.contact_us.success_feedback" | t() /}}
           {{/if}}
 
-          {{#if form.errors.messages}}
+          {{#if form.errors.messages }}
             {{#component "tips-card/tips-card" type="error" text=form.errors.messages /}}
           {{/if}}
 
@@ -27,7 +27,7 @@
                 autocomplete="name"
                 type="text"
                 name="contact[name]"
-                value="{{form.name}}"
+                value="{{ form.name }}"
                 placeholder="{{ "general.general.username" | t() }}"
                 title="{{ "general.general.username" | t() }}"
               />
@@ -36,6 +36,7 @@
               </span>
             </label>
 
+            {{#var email_title = "general.general.email" | t() /}}
             {{#component
               "input/input-email"
               input_autocomplete="email"
@@ -44,6 +45,7 @@
               input_autocapitalize="off"
               input_required=true
               input_value=form.email
+              input_title=email_title
               input_placeholder="customer.email.mail_common" | t()
             /}}
           </div>
@@ -55,7 +57,7 @@
               autocomplete="tel"
               name="contact[phone]"
               pattern="[0-9\-]*"
-              value="{{form.phone}}"
+              value="{{ form.phone }}"
               placeholder="{{ "general.general.tel_phone" | t() }}"
               title="{{ "general.general.tel_phone" | t() }}"
             />
@@ -69,7 +71,9 @@
               name="contact[comment]"
               placeholder="{{ "products.product_details.message" | t() }}"
               title="{{ "products.product_details.message" | t() }}"
-            >{{form.body}}</textarea>
+            >
+              {{ form.body }}
+            </textarea>
             <span class="field__label">
               {{ "products.product_details.message" | t() }}
             </span>

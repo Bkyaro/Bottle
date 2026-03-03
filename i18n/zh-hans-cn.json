@@ -100,6 +100,7 @@
       "buy_limit3": "此商品优惠价仅支持买{{stock}}件"
     },
     "error": {
+      "coupon_code_expired": "折扣码已失效",
       "default": "加载资源失败",
       "noshipping": "无可选的运费方案",
       "order": "下单请求失败",
@@ -121,7 +122,10 @@
           "excludedState": "市场商品非法,该商品在市场是排除状态"
         }
       },
-      "none_existent": "商品不存在"
+      "none_existent": "商品不存在",
+      "selling_plan": {
+        "name": "订阅信息"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "下一步将计算税费和运费",
@@ -629,6 +633,7 @@
       "all_products": "全部商品",
       "collections": "全部分类",
       "decline": "拒绝",
+      "email": "电子邮件",
       "email_tip": "无效的邮箱地址, 请重新输入",
       "home": "首页",
       "link": "隐私政策",
@@ -844,6 +849,8 @@
       "email": "邮箱",
       "enter_email_address": "请填写邮箱",
       "enter_valid_email_address": "请填写正确的邮箱",
+      "expander_view_less": "收起",
+      "expander_view_more": "查看更多",
       "give_us_more_of_your_information": "你还可以留下更多信息，以便我们提供更适合你的服务",
       "go_to_amazon_by_link": "去亚马逊购物",
       "go_to_rakuten_by_link": "去乐天购物",

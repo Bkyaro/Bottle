@@ -1014,6 +1014,9 @@
           },
           "options_3": {
             "label": "Logo居中，菜單居左"
+          },
+          "options_4": {
+            "label": "Logo居中，菜單換行 2"
           }
         },
         "header_sticky_mode": {
@@ -3290,7 +3293,7 @@
         }
       },
       "detail_variant_picker": {
-        "name": "多屬性選擇器",
+        "name": "變體選擇器",
         "settings": {
           "picker_type": {
             "label": "多屬性展示方式",
@@ -3304,7 +3307,7 @@
         },
         "presets": {
           "presets_0": {
-            "name": "多屬性選擇器"
+            "name": "變體選擇器"
           }
         }
       },
@@ -3687,7 +3690,7 @@
       }
     },
     "sku": {
-      "name": "多屬性選擇器",
+      "name": "變體選擇器",
       "settings": {
         "group_header_0": {
           "label": "邊框"
@@ -4068,6 +4071,56 @@
         },
         "social_media_linkedin_link": {
           "label": "Linkedin"
+        },
+        "group_header_1": {
+          "label": "自訂社交媒體 1",
+          "info": "圖示大小 <200KB；建議尺寸 20×20px 或 25×25px"
+        },
+        "social_media_custom1_name": {
+          "label": "名稱"
+        },
+        "social_media_custom1_link": {
+          "label": "連結"
+        },
+        "group_header_2": {
+          "label": "自訂社交媒體 2",
+          "info": "圖示大小 <200KB；建議尺寸 20×20px 或 25×25px"
+        },
+        "social_media_custom2_name": {
+          "label": "名稱"
+        },
+        "social_media_custom2_link": {
+          "label": "連結"
+        },
+        "group_header_3": {
+          "label": "自訂社交媒體 3",
+          "info": "圖示大小 <200KB；建議尺寸 20×20px 或 25×25px"
+        },
+        "social_media_custom3_name": {
+          "label": "名稱"
+        },
+        "social_media_custom3_link": {
+          "label": "連結"
+        },
+        "group_header_4": {
+          "label": "自訂社交媒體4",
+          "info": "圖示大小 <200KB；建議尺寸 20×20px 或 25×25px"
+        },
+        "social_media_custom4_name": {
+          "label": "名稱"
+        },
+        "social_media_custom4_link": {
+          "label": "連結"
+        },
+        "group_header_5": {
+          "label": "自訂社交媒體 5",
+          "info": "圖示大小 <200KB；建議尺寸 20×20px 或 25×25px"
+        },
+        "social_media_custom5_name": {
+          "label": "名稱"
+        },
+        "social_media_custom5_link": {
+          "label": "連結"
         }
       }
     },

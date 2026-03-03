@@ -100,6 +100,7 @@
       "buy_limit3": "Galite tik pirkti šios prekės {{stock}} vnt. su nuolaidomis"
     },
     "error": {
+      "coupon_code_expired": "Baigėsi nuolaidos kodas",
       "default": "Nepavyko įkelti išteklių",
       "noshipping": "Nėra pasirinktinio krovos plano",
       "order": "Nepavyko pateikti užsakymo užklausos",
@@ -121,7 +122,10 @@
           "excludedState": "Rinkos prekė nelegali ir ji pašalinta iš rinkos"
         }
       },
-      "none_existent": "Prekė neegzistuoja"
+      "none_existent": "Prekė neegzistuoja",
+      "selling_plan": {
+        "name": "Prenumeratos informacija"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Mokesčiai ir siuntimas apskaičiuotas galutiniam pirkimui",
@@ -629,6 +633,7 @@
       "all_products": "Visi Produktai",
       "collections": "Kolekcijos",
       "decline": "Atsisakyti",
+      "email": "el. paštas",
       "email_tip": "Netinkama pašto dėžutė. Prašome įvesti iš naujo",
       "home": "Titulinis lapas",
       "link": "Privatumo politika",
@@ -844,6 +849,8 @@
       "email": "El. paštas",
       "enter_email_address": "Prašome įvesti savo el. pašto adresą",
       "enter_valid_email_address": "Prašome įvesti galiojantį el. pašto adresą",
+      "expander_view_less": "Paslėpti",
+      "expander_view_more": "Rodyti daugiau",
       "give_us_more_of_your_information": "Galite suteikti mums daugiau informacijos, kad galėtumėte suteikti jums daugiau tinkamų paslaugų",
       "go_to_amazon_by_link": "Pirkite Amazon",
       "go_to_rakuten_by_link": "Pirkite LOTTE",

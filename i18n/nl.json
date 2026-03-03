@@ -100,6 +100,7 @@
       "buy_limit3": "Slechts {{stock}} artikelen kunnen worden gekocht voor deze voorkeursprijs"
     },
     "error": {
+      "coupon_code_expired": "Kortingscode is verlopen",
       "default": "Bron niet geladen",
       "noshipping": "Geen beschikbare verzendtariefplannen",
       "order": "Mislukt om een orderaanvraag te plaatsen",
@@ -121,7 +122,10 @@
           "excludedState": "Markt goederen illegaal, de goederen is uitgesloten status in de markt"
         }
       },
-      "none_existent": "Item bestaat niet"
+      "none_existent": "Item bestaat niet",
+      "selling_plan": {
+        "name": "Abonnementsinformatie"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "De volgende stap is het berekenen van belasting en bezorgkosten",
@@ -629,6 +633,7 @@
       "all_products": "Alle Producten",
       "collections": "Collecties",
       "decline": "Afwijzen",
+      "email": "e-mail",
       "email_tip": "Ongeldig e-mailadres, gelieve opnieuw in te voeren",
       "home": "Homepage",
       "link": "Privacybeleid",
@@ -844,6 +849,8 @@
       "email": "E-mail",
       "enter_email_address": "Vul uw e-mailadres in",
       "enter_valid_email_address": "Vul het juiste e-mailadres in",
+      "expander_view_less": "Opbergen",
+      "expander_view_more": "Meer bekijken",
       "give_us_more_of_your_information": "U kunt ook meer informatie achterlaten, zodat wij u een dienst kunnen verlenen die beter bij u past",
       "go_to_amazon_by_link": "Ga winkelen bij Amazon",
       "go_to_rakuten_by_link": "Ga winkelen bij Rakuten",

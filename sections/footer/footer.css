@@ -127,6 +127,9 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+.footer__social-media-content img {
+  border-radius: 100%;
+}
 .footer {
   background-color: rgb(var(--color-background));
 }

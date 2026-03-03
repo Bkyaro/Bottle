@@ -3,36 +3,35 @@
 {{#var collection_card_style = settings.collection_card_style /}}
 {{#var collection_card_image_padding = settings.collection_card_image_padding /}}
 
-{{#capture aspect_ratio}}
-  {{~#if shape == "circle"~}}
+{{#capture aspect_ratio }}
+  {{~#if shape == "circle" ~}}
     1/1
   {{~#else/}}
-    {{~block.settings.aspect_ratio}}
+    {{~ block.settings.aspect_ratio }}
   {{~/if}}
 {{/capture}}
 
 <div
-  class="block-collection-card__image-wrapper {{#if collection_card_style != "card"}}collection-card-border-shadow{{/if}}"
-  style="
-    --aspect-ratio: {{aspect_ratio}};
-    --fit-type: {{block.settings.fit_type}};
-    {{#if shape == "circle"}}border-radius: 50%;{{/if}}
-    --padding: {{collection_card_image_padding}}px;
+  class="
+    block-collection-card__image-wrapper {{#if collection_card_style != "card" }}collection-card-border-shadow{{/if}}
   "
-  {{{block.shopline_attributes}}}
+  style="
+    --aspect-ratio: {{ aspect_ratio }};
+    --fit-type: {{ block.settings.fit_type }};
+    {{#if shape == "circle" }}border-radius: 50%;{{/if}}
+    --padding: {{ collection_card_image_padding }}px;
+  "
+  {{{ block.shopline_attributes }}}
 >
-  {{#if collection.featured_image}}
-    {{#component
-      "image"
-      data=collection.featured_image
-      mobile_size=props.mobile_columns
-      desktop_size=props.desktop_columns
-    /}}
+  {{#if collection.featured_image }}
+    {{#capture mobile_size }}1/{{ props.mobile_columns | default("1") }}{{/capture}}
+    {{#capture desktop_size }}1/{{ props.desktop_columns | default("1") }}{{/capture}}
+    {{#component "image" data=collection.featured_image mobile_size=mobile_size desktop_size=desktop_size /}}
   {{#else/}}
     {{#placeholder_svg "image" /}}
   {{/if}}
 
-  <div class="block-collection-card__image-title-wrapper {{block.settings | class_list()}}">
+  <div class="block-collection-card__image-title-wrapper {{ block.settings | class_list() }}">
     {{#blocks}}
       {{#block collection=collection /}}
     {{/blocks}}

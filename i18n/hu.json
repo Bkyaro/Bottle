@@ -100,6 +100,7 @@
       "buy_limit3": "Ebből a termékből csak {{stock}} darabot vásárolhat a kedvezményekkel"
     },
     "error": {
+      "coupon_code_expired": "A kedvezmény kód lejárt",
       "default": "Nem sikerült betölteni az erőforrásokat",
       "noshipping": "Nincs választható fuvarterv",
       "order": "Nem sikerült lekérni a rendelést",
@@ -121,7 +122,10 @@
           "excludedState": "A piaci termék nem megengedett, és a termék ki van zárva a piacról"
         }
       },
-      "none_existent": "A termék nem létezik"
+      "none_existent": "A termék nem létezik",
+      "selling_plan": {
+        "name": "Előfizetési információk"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "A következő lépésben kiszámítjuk az adót és a szállítási költséget",
@@ -629,6 +633,7 @@
       "all_products": "Összes Termék",
       "collections": "Gyűjtemények",
       "decline": "Elutasítás",
+      "email": "e-mail",
       "email_tip": "Érvénytelen postafiók. Kérjük, adja meg újra",
       "home": "Címlap",
       "link": "Adatvédelmi szabályzatát",
@@ -844,6 +849,8 @@
       "email": "E-mail",
       "enter_email_address": "Kérjük, adja meg e-mail címét",
       "enter_valid_email_address": "Kérjük, adjon meg egy érvényes e-mail címet",
+      "expander_view_less": "Elrejtése",
+      "expander_view_more": "Többet mutasson",
       "give_us_more_of_your_information": "Adjon nekünk több információt, hogy jobb szolgáltatásokat tudjunk nyújtani Önnek",
       "go_to_amazon_by_link": "Vásároljon az Amazonon",
       "go_to_rakuten_by_link": "Vásároljon a LOTTE-n",

@@ -1,19 +1,16 @@
 <div
   style="
-    --aspect-ratio: {{block.settings.aspect_ratio}};
-    --border-radius: {{block.settings.border_radius}}px;
-    --padding: {{settings.article_card_image_padding}}px;
+    --aspect-ratio: {{ block.settings.aspect_ratio }};
+    --border-radius: {{ block.settings.border_radius }}px;
+    --padding: {{ settings.article_card_image_padding }}px;
   "
   class="block-article-card__image-wrapper"
-  {{{block.shopline_attributes}}}
+  {{{ block.shopline_attributes }}}
 >
-  {{#if props.image}}
-    {{#component
-      "image"
-      data=props.image
-      mobile_size=props.mobile_columns
-      desktop_size=props.desktop_columns
-    /}}
+  {{#if props.image }}
+    {{#capture mobile_size }}1/{{ props.mobile_columns | default("1") }}{{/capture}}
+    {{#capture desktop_size }}1/{{ props.desktop_columns | default("1") }}{{/capture}}
+    {{#component "image" data=props.image mobile_size=mobile_size desktop_size=desktop_size /}}
   {{#else/}}
     {{#placeholder_svg "image" /}}
   {{/if}}

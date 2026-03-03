@@ -100,6 +100,7 @@
       "buy_limit3": "Sa popustom možete kupiti {{stock}} komad(a) ovog proizvoda"
     },
     "error": {
+      "coupon_code_expired": "Kod za popust je istekao",
       "default": "Pogreška pri učitavanju resursa",
       "noshipping": "Nema neobaveznog plana prijevoza tereta",
       "order": "Zahtjev za narudžbom nije uspio",
@@ -121,7 +122,10 @@
           "excludedState": "Proizvod na tržištu je nelegalan, te je isključen iz tržišta"
         }
       },
-      "none_existent": "Roba ne postoji"
+      "none_existent": "Roba ne postoji",
+      "selling_plan": {
+        "name": "Informacije o pretplati"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Porezi i dostava se računaju na blagajni",
@@ -629,6 +633,7 @@
       "all_products": "Svi Proizvodi",
       "collections": "Kolekcije",
       "decline": "Odbiti",
+      "email": "e-pošta",
       "email_tip": "Nevažeći poštanski sandučić. Molim vas ponovno se vratite",
       "home": "Naslovna strana",
       "link": "Politika privatnosti",
@@ -844,6 +849,8 @@
       "email": "E-pošta",
       "enter_email_address": "Molim upišite svoju adresu e-pošte",
       "enter_valid_email_address": "Unesite valjanu adresu e-pošte",
+      "expander_view_less": "Sakriti",
+      "expander_view_more": "Prikaži više",
       "give_us_more_of_your_information": "Možete nam dati više svojih podataka kako bismo vam mogli pružiti prikladnije usluge",
       "go_to_amazon_by_link": "Kupujte u Amazonu",
       "go_to_rakuten_by_link": "Kupujte u LOTTE-u",

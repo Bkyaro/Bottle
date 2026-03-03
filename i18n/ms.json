@@ -100,6 +100,7 @@
       "buy_limit3": "Anda hanya boleh membeli {{stock}} unit bagi produk ini dengan diskaun"
     },
     "error": {
+      "coupon_code_expired": "Kod diskaun telah tamat tempoh",
       "default": "Gagal memuatkan sumber",
       "noshipping": "Tiada pelan kos pengangkutan pilihan",
       "order": "Permintaan buat pesanan gagal",
@@ -121,7 +122,10 @@
           "excludedState": "Produk pasaran adalah haram, produk dikecualikan di pasaran"
         }
       },
-      "none_existent": "Barang tak ada"
+      "none_existent": "Barang tak ada",
+      "selling_plan": {
+        "name": "Maklumat Langganan"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Cukai dan penghantaran dikira semasa semakan keluar",
@@ -629,6 +633,7 @@
       "all_products": "Semua Produk",
       "collections": "Koleksi",
       "decline": "Tolak",
+      "email": "e-mel",
       "email_tip": "Peti mel tidak sah. Sila masukkan semula",
       "home": "Laman utama",
       "link": "Dasar Privasi",
@@ -844,6 +849,8 @@
       "email": "E-mel",
       "enter_email_address": "Sila masukkan alamat e-mel anda",
       "enter_valid_email_address": "Sila masukkan alamat e-mel yang sah",
+      "expander_view_less": "Sembunyi",
+      "expander_view_more": "Tunjukkan lagi",
       "give_us_more_of_your_information": "Anda boleh memberikan kami lebih banyak maklumat anda supaya kami boleh menyediakan lebih banyak perkhidmatan yang sesuai",
       "go_to_amazon_by_link": "Beli dalam Amazon",
       "go_to_rakuten_by_link": "Beli dalam LOTTE",

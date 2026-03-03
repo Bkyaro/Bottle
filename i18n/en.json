@@ -100,6 +100,7 @@
       "buy_limit3": "You can only buy {{stock}} item(s) of this product with discount price"
     },
     "error": {
+      "coupon_code_expired": "Discount code has expired",
       "default": "Failed to load resource",
       "noshipping": "No available shipping rate plans",
       "order": "Unable to place order",
@@ -121,7 +122,10 @@
           "excludedState": "The market goods are illegal, and this product is in an excluded state in the market."
         }
       },
-      "none_existent": "Product does not exist"
+      "none_existent": "Product does not exist",
+      "selling_plan": {
+        "name": "Subscription"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Taxes and shipping fee will be calculated at checkout",
@@ -629,6 +633,7 @@
       "all_products": "All Products",
       "collections": "Collections",
       "decline": "Decline",
+      "email": "email",
       "email_tip": "Invalid email address, please enter again",
       "home": "Home",
       "link": "Privacy Policy",
@@ -844,6 +849,8 @@
       "email": "Email",
       "enter_email_address": "Please enter your email address",
       "enter_valid_email_address": "Please enter a valid email address",
+      "expander_view_less": "View less",
+      "expander_view_more": "View more",
       "give_us_more_of_your_information": "You can give us more of your information so that we can provide you with more appropriate services",
       "go_to_amazon_by_link": "Buy in Amazon",
       "go_to_rakuten_by_link": "Buy in Rakuten",
@@ -910,7 +917,7 @@
       "products": "All Products",
       "quick_shop": "Quick view",
       "recommend": "Recommended",
-      "sale": "On sale",
+      "sale": "Sale",
       "save": "Save {{{priceDom}}}",
       "save_byjs": "Save {{priceDom}}",
       "save_ratio": "{{price}}% OFF",

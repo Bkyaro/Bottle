@@ -1014,6 +1014,9 @@
           },
           "options_3": {
             "label": "中央にロゴ、左にメニュー"
+          },
+          "options_4": {
+            "label": "中央にロゴ、メニューを改行 2"
           }
         },
         "header_sticky_mode": {
@@ -4068,6 +4071,56 @@
         },
         "social_media_linkedin_link": {
           "label": "LinkedIn"
+        },
+        "group_header_1": {
+          "label": "SNS1",
+          "info": "アイコンサイズ 200KB以下；推奨サイズ 20×20px または 25×25px"
+        },
+        "social_media_custom1_name": {
+          "label": "名称"
+        },
+        "social_media_custom1_link": {
+          "label": "URL"
+        },
+        "group_header_2": {
+          "label": "SNS2",
+          "info": "アイコンサイズ 200KB以下；推奨サイズ 20×20px または 25×25px"
+        },
+        "social_media_custom2_name": {
+          "label": "名称"
+        },
+        "social_media_custom2_link": {
+          "label": "URL"
+        },
+        "group_header_3": {
+          "label": "SNS3",
+          "info": "アイコンサイズ 200KB以下；推奨サイズ 20×20px または 25×25px"
+        },
+        "social_media_custom3_name": {
+          "label": "名称"
+        },
+        "social_media_custom3_link": {
+          "label": "URL"
+        },
+        "group_header_4": {
+          "label": "SNS 4",
+          "info": "アイコンサイズ 200KB以下；推奨サイズ 20×20px または 25×25px"
+        },
+        "social_media_custom4_name": {
+          "label": "名称"
+        },
+        "social_media_custom4_link": {
+          "label": "URL"
+        },
+        "group_header_5": {
+          "label": "SNS5",
+          "info": "アイコンサイズ 200KB以下；推奨サイズ 20×20px または 25×25px"
+        },
+        "social_media_custom5_name": {
+          "label": "名称"
+        },
+        "social_media_custom5_link": {
+          "label": "URL"
         }
       }
     },

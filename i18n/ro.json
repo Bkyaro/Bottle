@@ -100,6 +100,7 @@
       "buy_limit3": "Puteți achiziționa {{stock}} bucată(i) din produs cu reduceri"
     },
     "error": {
+      "coupon_code_expired": "Codul de reducere a expirat",
       "default": "Nu s-a putut realiza încărcarea resurselor",
       "noshipping": "Fără plan de transport opțional",
       "order": "Nu s-a putut solicita comanda",
@@ -121,7 +122,10 @@
           "excludedState": "Produsul de pe piață este ilegal, iar produsul este exclus de pe piață"
         }
       },
-      "none_existent": "Produsul nu exista"
+      "none_existent": "Produsul nu exista",
+      "selling_plan": {
+        "name": "Informații despre abonament"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Taxele și livrarea vor fi calculate la finalizarea comenzii",
@@ -629,6 +633,7 @@
       "all_products": "Toate Produsele",
       "collections": "Colecții",
       "decline": "Respinge",
+      "email": "email",
       "email_tip": "Căsuță poștală invalidă. Vă rugăm să introduceți din nou",
       "home": "Pagina principala",
       "link": "Politică de Confidențialitate",
@@ -844,6 +849,8 @@
       "email": "E-mail",
       "enter_email_address": "Introduceți adresa de e-mail",
       "enter_valid_email_address": "Introduceți o adresă de e-mail validă",
+      "expander_view_less": "Ascundeți",
+      "expander_view_more": "Arată mai mult",
       "give_us_more_of_your_information": "Ne puteți furniza mai multe informații despre dvs., pentru a vă putea oferi cele mai potrivite servicii",
       "go_to_amazon_by_link": "Cumpărați de pe Amazon",
       "go_to_rakuten_by_link": "Cumpărați de pe LOTTE",

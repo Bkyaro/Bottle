@@ -100,6 +100,7 @@
       "buy_limit3": "이 상품 혜택 가격은 {{stock}}건을 구매할 때만 가능하고"
     },
     "error": {
+      "coupon_code_expired": "할인 코드가 만료되었습니다",
       "default": "리소스 로드 실패",
       "noshipping": "옵션운임안",
       "order": "주문 요청 실패",
@@ -121,7 +122,10 @@
           "excludedState": "시장상품은 불법이고, 이 상품은 시장에서 배제된 상태이다."
         }
       },
-      "none_existent": "상품이 존재하지 않습니다"
+      "none_existent": "상품이 존재하지 않습니다",
+      "selling_plan": {
+        "name": "구독 정보"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "다음으로 세금과 운비를 계산합니다",
@@ -629,6 +633,7 @@
       "all_products": "모든 제품",
       "collections": "컬렉션",
       "decline": "거절합니다.",
+      "email": "이메일",
       "email_tip": "잘못된 이메일 주소입니다. 다시 입력하십시오",
       "home": "초기 화면",
       "link": "프라이버시 정책",
@@ -844,6 +849,8 @@
       "email": "이메일",
       "enter_email_address": "이메일을 입력하세요",
       "enter_valid_email_address": "정확한 이메일을 입력하세요",
+      "expander_view_less": "접기",
+      "expander_view_more": "더 보기",
       "give_us_more_of_your_information": "더욱 많은 댓글 정보를 남기시면 더욱 잘 맞는 서비스를 제공하겠습니다",
       "go_to_amazon_by_link": "아마존에서 쇼핑하기",
       "go_to_rakuten_by_link": "롯데에서 쇼핑하기",

@@ -100,6 +100,7 @@
       "buy_limit3": "tylko wolno kupić {{stock}} sztuk tego produktu za zniżkową cenę"
     },
     "error": {
+      "coupon_code_expired": "Kod rabatowy wygasł",
       "default": "Wgranie zasobu nieudane",
       "noshipping": "Brak dostępnych opcji dostawy",
       "order": "Żądanie zamówienia nie powiodło się",
@@ -121,7 +122,10 @@
           "excludedState": "Produkt taki jest nielegalny, a produkt jest wykluczony z rynku"
         }
       },
-      "none_existent": "Towar nie jest dostępny"
+      "none_existent": "Towar nie jest dostępny",
+      "selling_plan": {
+        "name": "Informacje o subskrypcji"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Kolejnie przeliczyć podatki i koszty za dostawę",
@@ -629,6 +633,7 @@
       "all_products": "Wszystkie Produkty",
       "collections": "Kolekcje",
       "decline": "Odmówię",
+      "email": "e-mail",
       "email_tip": "Nieprawidłowy adres e-mail, proszę wprowadzić ponownie",
       "home": "główna strona",
       "link": "Polityka prywatności",
@@ -844,6 +849,8 @@
       "email": "E-mail",
       "enter_email_address": "Proszę wpisać adres e-maila",
       "enter_valid_email_address": "Proszę napisać prawidłowy adres e-maila",
+      "expander_view_less": "Zwiń",
+      "expander_view_more": "Rozwiń opis",
       "give_us_more_of_your_information": "Możesz pozostawić więcej informacji, żebyśmy oferowali bardziej odpowiednią usługę dla ciebie",
       "go_to_amazon_by_link": "Zrób zakupy na Amazon",
       "go_to_rakuten_by_link": "Zrób zakupy na Lotte",

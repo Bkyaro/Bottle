@@ -100,6 +100,7 @@
       "buy_limit3": "Se slevami můžete zakoupit pouze {{stock}} kusy tohoto produktu"
     },
     "error": {
+      "coupon_code_expired": "Kód slevy vypršel",
       "default": "Načítání prostředků se nezdařilo",
       "noshipping": "Žádný volitelný plán přepravy",
       "order": "Nelze požádat o objednávky",
@@ -121,7 +122,10 @@
           "excludedState": "Tržní komodita je nezákonná a komodita není povolena na trhu"
         }
       },
-      "none_existent": "Produkt neexistuje"
+      "none_existent": "Produkt neexistuje",
+      "selling_plan": {
+        "name": "Informace o odběru"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Daně a doprava vypočítané při pokladně",
@@ -629,6 +633,7 @@
       "all_products": "Všechny Produkty",
       "collections": "Kolekce",
       "decline": "Odmítnout",
+      "email": "e-mail",
       "email_tip": "Neplatná schránka. Zadejte prosím znovu",
       "home": "Přední strana",
       "link": "Zásady ochrany osobních údajů",
@@ -844,6 +849,8 @@
       "email": "Mail",
       "enter_email_address": "Zadejte prosím svou e-mailovou adresu",
       "enter_valid_email_address": "Zadejte prosím platnou e-mailovou adresu",
+      "expander_view_less": "Skrýt",
+      "expander_view_more": "Zobrazit více",
       "give_us_more_of_your_information": "Můžete nám poskytnout více informací, abychom vám mohli poskytnout vhodnější služby",
       "go_to_amazon_by_link": "Koupit v Amazon",
       "go_to_rakuten_by_link": "Koupit na platformě LOTTE",

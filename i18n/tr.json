@@ -100,6 +100,7 @@
       "buy_limit3": "İndirimli fiyatları kullanarak bu üründen yalnızca {{stock}} adet satın alabilirsiniz"
     },
     "error": {
+      "coupon_code_expired": "İndirim kodu süresi doldu",
       "default": "Kaynak yüklenirken hata oluştu",
       "noshipping": "İsteğe bağlı navlun planı yok",
       "order": "Bir dizi istenemedi",
@@ -121,7 +122,10 @@
           "excludedState": "Piyasa ürünü yasal olmadığı için ürün piyasadan kaldırıldı"
         }
       },
-      "none_existent": "Ürünler mevcut değil"
+      "none_existent": "Ürünler mevcut değil",
+      "selling_plan": {
+        "name": "Abonelik bilgileri"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Ödeme anında hesaplanan vergiler ve kargo ücreti",
@@ -629,6 +633,7 @@
       "all_products": "Tüm Ürünler",
       "collections": "Koleksiyonlar",
       "decline": "Reddet",
+      "email": "e-posta",
       "email_tip": "Geçersiz posta kutusu. Lütfen tekrar girin",
       "home": "Anasayfa",
       "link": "Gizlilik Politikası",
@@ -844,6 +849,8 @@
       "email": "E-posta",
       "enter_email_address": "Lütfen e-posta adresinizi girin",
       "enter_valid_email_address": "Geçerli bir e-posta adresi girin",
+      "expander_view_less": "Gizle",
+      "expander_view_more": "Daha fazla göster",
       "give_us_more_of_your_information": "Size daha uygun hizmetler sunabilmemiz için bize sizinle ilgili daha fazla bilgi verebilirsiniz",
       "go_to_amazon_by_link": "Amazon'da satın alın",
       "go_to_rakuten_by_link": "LOTTE'de satın alın",
@@ -910,7 +917,7 @@
       "products": "ürünleri",
       "quick_shop": "Hızlı Bakış",
       "recommend": "Önerilen",
-      "sale": "İndirimde",
+      "sale": "satış",
       "save": "{{{priceDom}}} tasarruf edin",
       "save_byjs": "{{priceDom}} tasarruf edin",
       "save_ratio": "{{price}}% İNDİRİM",

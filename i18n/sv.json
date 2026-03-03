@@ -100,6 +100,7 @@
       "buy_limit3": "Du kan bara köpa {{stock}} delar av denna produkt med rabatter"
     },
     "error": {
+      "coupon_code_expired": "Rabattkoden har gått ut",
       "default": "Det gick inte laddning resurser",
       "noshipping": "Ingen valfri godsplan",
       "order": "Det gick inte att begära beställning",
@@ -121,7 +122,10 @@
           "excludedState": "Kommersiella varor är olagliga och varor utesluts från marknaden"
         }
       },
-      "none_existent": "Produkten finns inte"
+      "none_existent": "Produkten finns inte",
+      "selling_plan": {
+        "name": "Prenumerationsinformation"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Skatter och fraktkostnader beräknade i kassan",
@@ -629,6 +633,7 @@
       "all_products": "Alla Produkter",
       "collections": "Kollektioner",
       "decline": "Vägra",
+      "email": "e-post",
       "email_tip": "Ogiltig brevlåda. Vänligen ange igen",
       "home": "Hemsida",
       "link": "Integritetpolicy",
@@ -844,6 +849,8 @@
       "email": "E-post",
       "enter_email_address": "Ange din e-postadress",
       "enter_valid_email_address": "Ange en giltig e-postadress",
+      "expander_view_less": "Dölj",
+      "expander_view_more": "Visa mer",
       "give_us_more_of_your_information": "Kan du ge oss mer information så att vi kan ge dig mer lämpliga tjänster",
       "go_to_amazon_by_link": "Köp på Amazon",
       "go_to_rakuten_by_link": "Köp på LOTTE",

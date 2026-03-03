@@ -100,6 +100,7 @@
       "buy_limit3": "Jūs varat iegādāties tikai šī produkta (-us) {{stock}} gabalu (-us) ar atlaidēm"
     },
     "error": {
+      "coupon_code_expired": "Atlaides kods ir beidzies",
       "default": "Neizdevās iekraušanas resursi",
       "noshipping": "Nav izvēles kravas plāna",
       "order": "Neizdevās pieprasījuma pasūtījumi",
@@ -121,7 +122,10 @@
           "excludedState": "Komercpreces ir nelikumīgas, un preces tiek izslēgtas no tirgus"
         }
       },
-      "none_existent": "Preču neeksistē"
+      "none_existent": "Preču neeksistē",
+      "selling_plan": {
+        "name": "Abonēšanas informācija"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Nodokļi un piegāde aprēķināta kasē",
@@ -629,6 +633,7 @@
       "all_products": "Visi Produkti",
       "collections": "Kolekcijas",
       "decline": "Noraidīt",
+      "email": "e-pasts",
       "email_tip": "Nederīga pastkastīte. Lūdzu, ievadiet to vēlreiz",
       "home": "Mājas lapa",
       "link": "Privātuma politika",
@@ -844,6 +849,8 @@
       "email": "E-pasts",
       "enter_email_address": "Lūdzu, ievadiet savu e-pasta adresi",
       "enter_valid_email_address": "Lūdzu, ievadiet derīgu e-pasta adresi",
+      "expander_view_less": "Paslēpt",
+      "expander_view_more": "Rādīt vairāk",
       "give_us_more_of_your_information": "Jūs varat sniegt mums vairāk informācijas, lai mēs varētu sniegt jums piemērotākus pakalpojumus",
       "go_to_amazon_by_link": "Pērciet Amazon",
       "go_to_rakuten_by_link": "Pērciet vietnē LOTTE",

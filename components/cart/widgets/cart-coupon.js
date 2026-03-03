@@ -2,13 +2,13 @@ defineModule('theme-cart-coupon', () => {
     class ThemeCartCoupon extends BaseElement {
         #inputElement;
         #submitButtonElement;
-        #couponListElement;
+        #couponListElements;
         #errorElement;
         constructor() {
             super();
             this.#inputElement = this.querySelector('input');
             this.#submitButtonElement = this.querySelector('.cart-coupon__button');
-            this.#couponListElement = this.querySelector('.cart-coupon__list');
+            this.#couponListElements = this.querySelectorAll('.cart-coupon__list');
             this.#errorElement = this.querySelector('.cart-coupon__error');
             this.#init();
         }
@@ -17,33 +17,35 @@ defineModule('theme-cart-coupon', () => {
             this.#bindSubmitEvent();
         }
         #bindCloseEvent() {
-            this.#couponListElement.addEventListener('click', themeUtils.debounce((event) => {
-                const target = event.target || null;
-                if (!target) {
-                    return;
-                }
-                const closeButtonElement = target.closest('.cart-coupon__list-close');
-                const item = target.closest('.cart-coupon__list-item');
-                if (closeButtonElement && item) {
-                    const { code = '' } = item.dataset;
-                    this.#disabled();
-                    this.#remove(code)
-                        .then((res) => res.json())
-                        .then(async (res) => {
-                        if (res.message) {
-                            this.#showError(res.message, false);
-                            return;
-                        }
-                        await Cart.update();
-                    })
-                        .catch(() => {
-                        this.#showError('request error', false);
-                    })
-                        .finally(() => {
-                        this.#removeDisabled();
-                    });
-                }
-            }, 300));
+            this.#couponListElements.forEach((couponListElement) => {
+                couponListElement.addEventListener('click', themeUtils.debounce((event) => {
+                    const target = event.target || null;
+                    if (!target) {
+                        return;
+                    }
+                    const closeButtonElement = target.closest('.cart-coupon__list-close');
+                    const item = target.closest('.cart-coupon__list-item');
+                    if (closeButtonElement && item) {
+                        const { code = '' } = item.dataset;
+                        this.#disabled();
+                        this.#remove(code)
+                            .then((res) => res.json())
+                            .then(async (res) => {
+                            if (res.message) {
+                                this.#showError(res.message, false);
+                                return;
+                            }
+                            await Cart.update();
+                        })
+                            .catch(() => {
+                            this.#showError('request error', false);
+                        })
+                            .finally(() => {
+                            this.#removeDisabled();
+                        });
+                    }
+                }, 300));
+            });
         }
         #bindSubmitEvent() {
             this.#inputElement.addEventListener('keyup', themeUtils.debounce((event) => {

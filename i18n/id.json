@@ -100,6 +100,7 @@
       "buy_limit3": "Kupon produk ini hanya mendukung beli {{stock}} buah"
     },
     "error": {
+      "coupon_code_expired": "Kode diskon telah kedaluwarsa",
       "default": "Pemuatan sumber daya gagal",
       "noshipping": "Paket pengiriman opsional",
       "order": "Permintaan pesanan gagal",
@@ -121,7 +122,10 @@
           "excludedState": "Barang pasar ilegal, barang dikeluarkan dari pasar"
         }
       },
-      "none_existent": "Produk tidak ada"
+      "none_existent": "Produk tidak ada",
+      "selling_plan": {
+        "name": "Langganan"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Selanjutnya menghitung pajak dan biaya pengiriman",
@@ -629,6 +633,7 @@
       "all_products": "Semua Produk",
       "collections": "Koleksi",
       "decline": "Tolak",
+      "email": "email",
       "email_tip": "Alamat email tidak valid, silakan masukkan kembali",
       "home": "Halaman Pertama",
       "link": "Kebijakan privasi",
@@ -844,6 +849,8 @@
       "email": "Email",
       "enter_email_address": "Silakan isi email",
       "enter_valid_email_address": "Silakan isi email yang benar",
+      "expander_view_less": "Simpan",
+      "expander_view_more": "Lihat lebih banyak",
       "give_us_more_of_your_information": "Anda juga dapat meninggalkan lebih banyak informasi, agar kami dapat memberikan layanan yang lebih cocok untuk Anda",
       "go_to_amazon_by_link": "Berbelanja ke Amazon",
       "go_to_rakuten_by_link": "Berbelanja ke LOTTE",

@@ -100,6 +100,7 @@
       "buy_limit3": "So zľavami si môžete kúpiť iba {{stock}} kus(ov) tohto produktu"
     },
     "error": {
+      "coupon_code_expired": "Platnosť zľavového kódu vypršala",
       "default": "Chyba pri načítaní zdrojov",
       "noshipping": "Žiadny voliteľný plán nákladu",
       "order": "Nepodarilo sa požiadať o postupnosť",
@@ -121,7 +122,10 @@
           "excludedState": "Produkt na trhu je nezákonný a výrobok je vylúčený z trhu"
         }
       },
-      "none_existent": "Tovar neexistuje"
+      "none_existent": "Tovar neexistuje",
+      "selling_plan": {
+        "name": "Informácie o predplatnom"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Dane a poštovné vypočítané pri pokladni",
@@ -629,6 +633,7 @@
       "all_products": "Všetky Produkty",
       "collections": "Kolekcie",
       "decline": "Odmietnuť",
+      "email": "e-mail",
       "email_tip": "Neplatná schránka. Zadajte ju prosím znova",
       "home": "Domovská stránka",
       "link": "Zásady ochrany osobných údajov",
@@ -844,6 +849,8 @@
       "email": "E-mail",
       "enter_email_address": "Prosím, zadajte svoju e-mailovú adresu",
       "enter_valid_email_address": "Prosím zadajte platnú emailovú adresu",
+      "expander_view_less": "Skryť",
+      "expander_view_more": "Zobraziť viac",
       "give_us_more_of_your_information": "Môžete nám poskytnúť viac vašich informácií, aby sme vám mohli poskytnúť vhodnejšie služby",
       "go_to_amazon_by_link": "Kúpiť na Amazone",
       "go_to_rakuten_by_link": "Kúpiť na LOTTE",

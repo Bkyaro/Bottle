@@ -100,6 +100,7 @@
       "buy_limit3": "Bạn chỉ có thể mua {{stock}} sản phẩm này với giá khuyến mãi"
     },
     "error": {
+      "coupon_code_expired": "Mã giảm giá đã hết hạn",
       "default": "Tải không thành công tài nguyên",
       "noshipping": "Không có phương án phí vận chuyển có thể chọn",
       "order": "Yêu cầu đặt hàng không thành công",
@@ -121,7 +122,10 @@
           "excludedState": "Sản phẩm thị trường là bất hợp pháp và sản phẩm này ở trạng thái bị loại khỏi thị trường"
         }
       },
-      "none_existent": "Hàng hóa không tồn tại"
+      "none_existent": "Hàng hóa không tồn tại",
+      "selling_plan": {
+        "name": "Thông tin đăng ký nhận tin"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Bước tiếp theo sẽ tính thuế và phí vận chuyển",
@@ -629,6 +633,7 @@
       "all_products": "Tất Cả Sản Phẩm",
       "collections": "Bộ Sưu Tập",
       "decline": "Từ chối",
+      "email": "email",
       "email_tip": "Hộp thư không hợp lệ. Vui lòng nhập lại",
       "home": "Trang chủ",
       "link": "Chính sách quyền riêng tư",
@@ -844,6 +849,8 @@
       "email": "Email",
       "enter_email_address": "Vui lòng nhập địa chỉ email của bạn",
       "enter_valid_email_address": "Vui lòng nhập địa chỉ email hợp lệ",
+      "expander_view_less": "",
+      "expander_view_more": "",
       "give_us_more_of_your_information": "Vui lòng cung cấp cho chúng tôi thêm thông tin của bạn để chúng tôi có thể cung cấp cho bạn những dịch vụ tốt nhất",
       "go_to_amazon_by_link": "Mua trên Amazon",
       "go_to_rakuten_by_link": "Mua trên Rakuten",

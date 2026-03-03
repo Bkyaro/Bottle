@@ -100,6 +100,7 @@
       "buy_limit3": "Voit ostaa vain {{stock}} kappaleen tätä tuotetta alennuksilla"
     },
     "error": {
+      "coupon_code_expired": "Alennuskoodi on vanhentunut",
       "default": "Virhe resurssien lataamisessa",
       "noshipping": "Ei valinnaista rahtisuunnitelmaa",
       "order": "Ei voinut pyytää sekvenssiä",
@@ -121,7 +122,10 @@
           "excludedState": "Markkinoiden tuotteet ovat laittomia, tuotteet suljetaan pois markkinoilta"
         }
       },
-      "none_existent": "Tavaransa ovat olemattomat"
+      "none_existent": "Tavaransa ovat olemattomat",
+      "selling_plan": {
+        "name": "Tilaustiedot"
+      }
     },
     "next_step": {
       "calculated_taxes_fees": "Verot ja toimituskulut lasketaan seuraavassa vaiheessa",
@@ -629,6 +633,7 @@
       "all_products": "Kaikki Tuotteet",
       "collections": "Kokoelmat",
       "decline": "Lasku",
+      "email": "sähköposti",
       "email_tip": "Virheellinen postilaatikko. Syötä uudelleen",
       "home": "Kotisivu",
       "link": "Tietosuojakäytäntö",
@@ -844,6 +849,8 @@
       "email": "Sähköposti",
       "enter_email_address": "Kirjoita tähän sähköpostiosoite",
       "enter_valid_email_address": "Kirjoita tähän käytössä oleva sähköpostiosoite",
+      "expander_view_less": "Piilota",
+      "expander_view_more": "Näytä lisää",
       "give_us_more_of_your_information": "Voit halutessasi lähettää lisätietoja, jotta voimme tarjota juuri Sinulle parhaiten sopivimmat palvelut.",
       "go_to_amazon_by_link": "Osta Amazonista",
       "go_to_rakuten_by_link": "Osta LOTTESTA",
